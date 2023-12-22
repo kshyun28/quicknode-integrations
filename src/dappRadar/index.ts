@@ -8,7 +8,11 @@ import { DappRadarPlugin } from "./DappRadarPlugin";
   web3.registerPlugin(new DappRadarPlugin());
 
   web3.customRpcMethods
-    .drDappSearch()
+    .drDappSearch({
+      smartContract: undefined,
+      website: "https://opensea.io",
+      name: undefined,
+    })
     .then(data => console.log(JSON.stringify(data)))
     .catch(console.error);
 })();

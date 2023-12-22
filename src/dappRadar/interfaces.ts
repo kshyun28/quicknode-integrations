@@ -1,3 +1,8 @@
+export interface DappSearchParams {
+  smartContract?: string;
+  website?: string;
+  name?: string;
+}
 export interface ApiResponse {
   message: string;
   method: string;

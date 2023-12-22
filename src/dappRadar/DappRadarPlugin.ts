@@ -1,13 +1,17 @@
 import { Web3PluginBase } from "web3";
-import { ApiResponse } from "./interfaces";
+import { ApiResponse, DappSearchParams } from "./interfaces";
 
 export class DappRadarPlugin extends Web3PluginBase {
   public pluginNamespace = "customRpcMethods";
 
-  public async drDappSearch(): Promise<ApiResponse> {
+  public async drDappSearch({
+    smartContract,
+    website,
+    name,
+  }: DappSearchParams): Promise<ApiResponse> {
     return this.requestManager.send({
       method: "dr_dappSearch",
-      params: ["", "https://opensea.io", ""],
+      params: [smartContract, website, name],
     });
   }
 }
