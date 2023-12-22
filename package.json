@@ -1,0 +1,21 @@
+{
+  "name": "quicknode-integrations",
+  "version": "1.0.0",
+  "description": "A collection of QuickNode marketplace integrations in Node.js.",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start:dappradar": "node src/dappRadar/index.js",
+    "start:dev:dappradar": "ts-node src/dappRadar/index.ts"
+  },
+  "author": "Jasper Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^4.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
