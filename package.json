@@ -6,11 +6,14 @@
   "scripts": {
     "build": "tsc",
     "start:dappradar": "node src/dappRadar/index.js",
-    "start:dev:dappradar": "ts-node src/dappRadar/index.ts"
+    "start:dev:dappradar": "ts-node src/dappRadar/index.ts",
+    "start:solananameservice": "node src/solanaNameService/index.js",
+    "start:dev:solananameservice": "ts-node src/solanaNameService/index.ts"
   },
   "author": "Jasper Gabriel",
   "license": "MIT",
   "dependencies": {
+    "@solana/web3.js": "^1.87.6",
     "web3": "^4.3.0"
   },
   "devDependencies": {

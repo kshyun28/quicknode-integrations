@@ -5,6 +5,7 @@ A collection of QuickNode marketplace integrations in Node.js.
 ## Sample Marketplace Integrations
 
 - [DappRadar](src/dappRadar/)
+- [SolanaNameService](src/solanaNameService/)
 
 ## Local Development
 
@@ -16,6 +17,11 @@ A collection of QuickNode marketplace integrations in Node.js.
 
 - Run `npm run start:dev:dappradar` for TypeScript.
 - Run `npm run start:dappradar` for JavaScript.
+
+### Start SolanaNameService
+
+- Run `npm run start:dev:solananameservice` for TypeScript.
+- Run `npm run start:solananameservice` for JavaScript.
 
 ## Resources
 
