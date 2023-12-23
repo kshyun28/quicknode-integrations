@@ -1,6 +1,7 @@
 import { Web3PluginBase } from "web3";
 import { ApiResponse, DappSearchParams } from "./interfaces";
 
+// Documentation: https://docs.web3js.org/guides/advanced/support_additional_rpc_methods/
 export class DappRadarPlugin extends Web3PluginBase {
   public pluginNamespace = "customRpcMethods";
 
