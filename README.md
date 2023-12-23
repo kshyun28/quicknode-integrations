@@ -28,3 +28,5 @@ A collection of QuickNode marketplace integrations in Node.js.
 - [QuickNode](https://www.quicknode.com/)
 - [QuickNode Marketplace](https://marketplace.quicknode.com/catalog)
 - [Smart Contract Metadata by DappRadar](https://marketplace.quicknode.com/add-on/dappradar-verification)
+- [Solana Name Service by Bonfida](https://marketplace.quicknode.com/add-on/solana-name-service)
+- [Solana Name Service QuickNode API docs](https://sns.guide/sns-quicknode/index.html)
